@@ -2,8 +2,8 @@ import java.time.LocalDate;
 
 public class PersonalAdministrativo extends Trabajador {
 
-    private String departamento;
-    private int nivel;
+    private final String departamento;
+    private final int nivel;
 
     public PersonalAdministrativo(String nombre, String apellidos, String dni, LocalDate fechaIncorporacion, Double salarioBase, String departamento, int nivel) {
         super(nombre, apellidos, dni, fechaIncorporacion, salarioBase);
