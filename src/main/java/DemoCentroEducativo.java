@@ -28,15 +28,7 @@ public class DemoCentroEducativo {
 
         for (Trabajador t: trabajadores) {
 
-            if (t instanceof Profesor) {
-
-                System.out.println(t.trabajar());
-
-            } else if (t instanceof PersonalAdministrativo) {
-
-                System.out.println(t.trabajar());
-
-            }
+            t.trabajar();
 
         }
 
