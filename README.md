@@ -18,5 +18,4 @@
 
 ---
 # AUTORÍA / LICENCIAS
-
 ###  Copyright y derechos intelectuales reservados para Pablo Miguel
